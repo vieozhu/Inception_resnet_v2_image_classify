@@ -1,0 +1,12 @@
+model_config_list: {
+  config: {
+    name: "animals",
+    base_path: "/path/to/animals/savedmodel/",
+    model_platform: "tensorflow"
+  },
+  config: {
+    name: "human",
+    base_path: "/path/to/human/savedmodel/",
+    model_platform: "tensorflow"
+  }
+}
